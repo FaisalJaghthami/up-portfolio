@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    font-family: "Aboreto";
+    font-weight: lighter;
+}
+.main{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content img{
+    width: 250px ;
+    height: 300px ;
+    border-radius: 8px;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.text{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 600px;
+    height: 200px;
+    border-radius: 8px;
+    margin-left: -48px;
+    padding: 20px;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+/*Contact Me*/
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-top: 2em;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.socials ul{
+    margin: 0;
+    margin-top: 1em;
+    display: grid;
+    grid-gap: 3em;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.socials ul li a{
+    color: white;
+    text-decoration: none;
+}
+.top-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.top-title a{
+    text-decoration: none;
+}
+.back{
+    background-color: white;
+    color: #444;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
